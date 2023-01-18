@@ -1,4 +1,6 @@
 import csv
+import pandas
+
 #v1
 with open('v1.csv','r',) as data:
     data_v1 = csv.reader(data)
@@ -31,7 +33,7 @@ d = {}
 for row in range(1,len(v3)):
     if v3[row][1] == '' or v3[row][2] == '': # checks if member/family_id is empty
         continue
-    member_id_set = set(v3[row][1].strip('[]').strip('"').split(',')) # list of member_ids
+    member_id_set = set(v3[row][1].strip('[]').replace('"','').split(',')) # list of member_ids
     if v3[row][2] not in d: # check if family id not in dict
         d[v3[row][2]] = member_id_set # create new key with values as list of member_ids
     else:
