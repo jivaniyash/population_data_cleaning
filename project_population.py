@@ -1,6 +1,6 @@
 import csv
 
-#v1
+#v1 sheet
 with open('v1.csv','r',) as data:
     data_v1 = csv.reader(data)
     v1 = list(data_v1)
@@ -22,7 +22,8 @@ with open('v1_final.csv','w',newline='') as data:
     for family_id in d:
         rows = [[member_id,family_id] for member_id in d[family_id]]
         v1_file.writerows(rows)
-#v3
+
+#v3 sheet
 with open('v3.csv','r',) as data:
     data_v3 = csv.reader(data)
     v3 = list(data_v3)
