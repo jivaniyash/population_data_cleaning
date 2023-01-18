@@ -1,5 +1,4 @@
 import csv
-import pandas
 
 #v1
 with open('v1.csv','r',) as data:
