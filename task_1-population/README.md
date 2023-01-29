@@ -8,7 +8,7 @@ This folder contains 3 files used to manipulate data using 3 different modules.
 
 [csv_population.py](https://github.com/jivaniyash/data_cleaning/blob/master/task_1-population/csv_population.py) uses csv module to read and write data.
 
-#### Data properties
+### Data properties
 'fAST patents v1 vs. v3 comparison.xlsx' file is used in which 1st and 3rd sheet is to be considered.
 
 Using string functions and dictionary & set object, member_id's are seperated from bundle.
