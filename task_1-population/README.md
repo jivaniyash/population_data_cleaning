@@ -2,7 +2,7 @@
 
 This folder contains 3 files used to manipulate data using 3 different modules.
 
-[pandas_cleaning.ipynb] (https://github.com/jivaniyash/data_cleaning/blob/master/task_1-population/pandas_cleaning.ipynb) to read and manipulate data using pandas library.
+[pandas_cleaning.ipynb](https://github.com/jivaniyash/data_cleaning/blob/master/task_1-population/pandas_cleaning.ipynb) to read and manipulate data using pandas library.
 
 [id_data.ipynb](https://github.com/jivaniyash/data_cleaning/blob/master/task_1-population/id_data.ipynb) uses [xlwings](https://www.xlwings.org/) to read and write xlsx file.
 
