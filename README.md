@@ -1,12 +1,12 @@
-# Task-1_Popluation
+# Popluation_Data_Set_Cleaning
 
 This folder contains 3 files used to manipulate data using 3 different modules.
 
-[pandas_cleaning.ipynb] (https://github.com/jivaniyash/data_cleaning/blob/master/task_1-population/pandas_cleaning.ipynb) to read and manipulate data using pandas library.
+[pandas_cleaning.ipynb] (https://github.com/jivaniyash/population_data_cleaning/blob/master/pandas_cleaning.ipynb) to read and manipulate data using pandas library.
 
-[id_data.ipynb](https://github.com/jivaniyash/data_cleaning/blob/master/task_1-population/id_data.ipynb) uses [xlwings](https://www.xlwings.org/) to read and write xlsx file.
+[id_data.ipynb](https://github.com/jivaniyash/population_data_cleaning/blob/master/id_data.ipynb) uses [xlwings](https://www.xlwings.org/) to read and write xlsx file.
 
-[csv_population.py](https://github.com/jivaniyash/data_cleaning/blob/master/task_1-population/csv_population.py) uses csv module to read and write data.
+[csv_population.py](https://github.com/jivaniyash/population_data_cleaning/blob/master/csv_population.py) uses csv module to read and write data.
 
 #### Data properties
 'fAST patents v1 vs. v3 comparison.xlsx' file is used in which 1st and 3rd sheet is to be considered.
